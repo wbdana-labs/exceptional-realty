@@ -7,4 +7,4 @@ This is an example site for the Intro to Front-end Web Development Course at The
 
 # Contact
 
-email: test
+email: william.b.dana@gmail.com
