@@ -12,19 +12,24 @@
 		<title>Exceptional Realty Group - Luxury Homes - About</title>
 	</head>
 	<body>
-		<!-- The body is the entire viewable area of the web page. For example, we can see text, links, images, and media. -->
-
+		<header>≈
 		<h1>Exceptional</h1>
 		<h2>Realty Group</h2>
+			<nav>
+			<a href="index.html">About</a> | <a href="market-report.html">Market Report</a> | <a href="real-estate-listings.html">Listings</a> | <a href="new-properties.html">New Properties</a> | <a href="http://hud.gov" target="_blank">H.U.D.</a>
+			</nav>
+		</header>
 
-		<a href="index.html">About</a> | <a href="market-report.html">Market Report</a> | <a href="real-estate-listings.html">Listings</a> | <a href="new-properties.html">New Properties</a> | <a href="http://hud.gov" target="_blank">H.U.D.</a>
-
+		<section id="featured-property">
+		<figure>
+			<img src="images/intro-pic.jpg" alt="Welcome to Exceptional Realty! This image is of a beautiful living room. Just kidding, it's a test image." title = "This is a copypasta of the alt text! Welcome to Exceptional Realty! This image is of a beautiful living room. Just kidding, it's a test image." height="400" width="600">
+			<figcaption>Photography by who knows?</figcaption>
+		</figure>
 		<!--
 		<a href="EXAMPLE" target="_blank">EXAMPLE</a>
 		target="_blank" attribute opens in a new tab!
 		-->
 
-		<img src="images/intro-pic.jpg" alt="Welcome to Exceptional Realty! This image is of a beautiful living room. Just kidding, it's a test image." title = "This is a copypasta of the alt text! Welcome to Exceptional Realty! This image is of a beautiful living room. Just kidding, it's a test image.">
 		<!--
 		foldername/ = go inside the folder
 		vs.
@@ -42,16 +47,25 @@
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<p>Hello World.</p>
-		<p>Hello Moon.</p>
-
+			<p>Hello World.</p>
+			<p>Hello Moon.</p>
+			</section>
 		<!-- Promo Video -->
+		<section id="promotional"></section>
+		<figure>
+			<video controls>
+				<source src="videos/RealEstate.mp4" type="video/mp4">
+				<source src="videos/RealEstate.ogv" type="video/ogg">
+				<!-- Fallback Content -->
+				Your browser does not support HTML5 video. <a href="http://browsehappy.com" target="_blank"> Please upgrade your browser.</a>
+			</video>
+			<figcaption>Exceptional Realty has some vids</figcaption>
+		</figure>
+			
+		</section>
 
-		<video controls>
-			<source src="videos/RealEstate.mp4" type="video/mp4">
-			<source src="videos/RealEstate.ogv" type="video/ogg">
-			<!-- Fallback Content -->
-			Your browser does not support HTML5 video. <a href="http://browsehappy.com" target="_blank"> Please upgrade your browser.</a>
-		</video>
+		<footer>
+			&copy; 2017 Exceptional Realty. All rights reserved.
+		</footer>
 	</body>
 </html>
